@@ -1,3 +1,3 @@
-# Simple Starter
+# gen-35
 
-Simple JS build starter for simple, client-only demos.
+Layered circles clipped by circles
