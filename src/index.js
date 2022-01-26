@@ -70,6 +70,7 @@ const randomCircle = weightedRandom([
     },
     0.5, (palette, px, py, r) => {
         ctx.strokeStyle = palette[0 | Math.random() * palette.length]
+        ctx.lineWidth = Math.max(1, 0|r*0.025)
         ctx.beginPath()
         ctx.moveTo(px + r, py)
         ctx.arc(px, py, r, 0, TAU, true)
